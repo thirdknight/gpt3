@@ -68,7 +68,7 @@ a {
   }
 }
 
-@media screen and (max-with: 700px){
+@media screen and (max-width: 700px){
   .sectionPadding {
     padding: 4rem;
   }
@@ -78,7 +78,7 @@ a {
   }
 }
 
-@media screen and (max-with: 550px){
+@media screen and (max-width: 550px){
   .sectionPadding {
     padding: 4rem 2rem;
   }
