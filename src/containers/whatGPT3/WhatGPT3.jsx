@@ -1,8 +1,22 @@
 import React from "react";
-import { Feature } from "../../components";
+// import { Feature } from "../../components";
 import styles from "./whatGPT3.module.css";
 
 const WhatGPT3 = () => {
+  const Feature = ({ title, text }) => {
+    return (
+      <div className={styles.gpt3FeaturesContainerFeature}>
+        <div className={styles.gpt3FeaturesContainerFeatureTitle}>
+          <div />
+          <h1>{title}</h1>
+        </div>
+        <div className={styles.gpt3FeaturesContainerFeatureText}>
+            <p>{text}</p>
+          </div>
+      </div>
+    )
+  }
+
   return (
     <div className={`sectionMargin ${styles.gpt3Whatgpt3}`} id="whpt3">
       <div className={styles.gpt3Whatgpt3Feature}>
